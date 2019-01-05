@@ -10,5 +10,10 @@ Python 2.7.15+
 или
 
 4. mkvirtualenv text-classify
+------------------------------------------------------
+
+5. pip freeze
+6. pip3 install numpy scipy scikit-learn jupyter
 
 
+7. jupyter notebook --allow-root
