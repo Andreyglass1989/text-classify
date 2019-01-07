@@ -1,12 +1,13 @@
 bow = []
 
-def make_bag(new_item):
+def make_bag(new_item=None):
 	global bow
 	new_item_list = []
-	if isinstance(new_item, list):
-		new_item_list = new_item
-	if isinstance(new_item, str):
-		new_item_list = [x for x in new_item.split()]
+	if new_item is not None: 
+		if isinstance(new_item, list):
+			new_item_list = new_item
+		if isinstance(new_item, str):
+			new_item_list = [x for x in new_item.split()]
 	for item in new_item_list:
 		final_item = item.lower().strip()
 		if item not in bow:
@@ -32,3 +33,15 @@ def to_one_hot(text):
 				oha[i] = 1
 		i +=1
 	return oha
+
+
+def oha_to_text(oha_array):
+	current_bow = make_bag()
+	sent = ''
+	i=0
+	for pos in oha_array:
+		if pos == 1:
+			sent += " " + current_bow[i]
+		i += 1
+	return sent.strip()
+	
