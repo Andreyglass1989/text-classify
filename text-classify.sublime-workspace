@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"txt",
+				"txt3"
+			],
+			[
 				"def",
 				"default"
 			],
@@ -510,10 +514,6 @@
 			[
 				"a",
 				"authentication"
-			],
-			[
-				"res",
-				"responseData"
 			]
 		]
 	},
@@ -523,8 +523,34 @@
 			"file": "Readme.md",
 			"settings":
 			{
-				"buffer_size": 288,
+				"buffer_size": 322,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spam-filter/main.py",
+			"settings":
+			{
+				"buffer_size": 485,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/root/selenium_name.py",
+			"settings":
+			{
+				"buffer_size": 2883,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "text-classify.sublime-project",
+			"settings":
+			{
+				"buffer_size": 45,
 				"line_ending": "Unix"
 			}
 		}
@@ -605,6 +631,7 @@
 	],
 	"file_history":
 	[
+		"/root/ne_zapolnenie_2019.py",
 		"/root/django/swift_avia_group/ManagerAdmin/templates/CargoList.html",
 		"/root/django/swift_avia_group/ManagerAdmin/templates/calendar.html",
 		"/root/django/swift_avia_group/LK/models.py",
@@ -731,8 +758,7 @@
 		"/Users/cfe/Dev/cfe-s3-upload/backend/src/cfehome/settings/local.py",
 		"/Users/cfe/Dev/cfe-s3-upload/backend/src/cfehome/settings/production.py",
 		"/Users/cfe/Dev/cfe-s3-upload/backend/src/credentials.py",
-		"/Users/cfe/Dev/cfe-s3-upload/backend/src/cfehome/credentials.py",
-		"/Users/cfe/Dev/django-s3-upload/credentials.py"
+		"/Users/cfe/Dev/cfe-s3-upload/backend/src/cfehome/credentials.py"
 	],
 	"find":
 	{
@@ -767,7 +793,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -776,15 +802,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 288,
+						"buffer_size": 322,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								288,
-								288
+								322,
+								322
 							]
 						],
 						"settings":
@@ -795,7 +821,92 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "spam-filter/main.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 485,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								484,
+								484
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/root/selenium_name.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2883,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2112,
+								2112
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "text-classify.sublime-project",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]

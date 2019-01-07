@@ -1,4 +1,12 @@
+from preprocessing import make_bag
+
 #bags of words
+
+bow = make_bag("This is awesome")
+
+bow = make_bag("This is bad")
+
+bow = make_bag(["What", "a", "great", "time"])
 
 
 txt = "This is awesome"
