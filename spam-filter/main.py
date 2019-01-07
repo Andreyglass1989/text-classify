@@ -1,4 +1,4 @@
-from preprocessing import make_bag
+from preprocessing import make_bag, to_one_hot
 
 #bags of words
 
